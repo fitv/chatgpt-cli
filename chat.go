@@ -114,7 +114,7 @@ func chatCompletion(input string, parentMsgs ...ChatBodyMsg) ([]byte, error) {
 	body := &ChatBody{
 		Model:    Model,
 		Messages: append(parentMsgs, msg),
-		Stream:   false,
+		Stream:   true,
 	}
 	jsonBody, err := json.Marshal(body)
 	if err != nil {
