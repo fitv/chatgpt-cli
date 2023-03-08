@@ -1,4 +1,4 @@
-# ChatGPT Cli2
+# ChatGPT Cli
 Running ChatGPT (gpt-3.5-turbo) in your command line.
 
 ## Usage
