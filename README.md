@@ -1,5 +1,5 @@
 # ChatGPT Cli
-Running ChatGPT (gpt-3.5-turbo) in your command line.
+Running ChatGPT (gpt-3.5-turbo) in your command line with streaming.
 
 ## Usage
 
