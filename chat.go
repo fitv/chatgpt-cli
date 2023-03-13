@@ -18,11 +18,11 @@ const (
 	Model        = "gpt-3.5-turbo"
 	SystemPrompt = "You are a helpful assistant"
 	Timeout      = 30 * time.Second
-	RecentMsgNum = 5
+	RecentMsgNum = 10
 )
 const (
-	UserLabel      = "[User]: "
-	AssistantLabel = "[Assistant]: "
+	UserLabel      = "User: "
+	AssistantLabel = "Assistant: "
 )
 const (
 	RoleSystem    = "system"
